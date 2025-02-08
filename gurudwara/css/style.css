@@ -1,0 +1,20 @@
+/* Base styles */
+body {
+  font-family: 'Noto Sans Gurmukhi', sans-serif;
+  background-color: #f4f1ea;
+  color: #2c1810;
+}
+
+.navbar {
+  background-color: #d4af37 !important;
+  border-bottom: 3px solid #8b4513;
+}
+
+.gurudwara-header {
+  background: url('../images/golden-temple-bg.jpg');
+  height: 400px;
+  background-size: cover;
+  position: relative;
+}
+
+/* Add remaining CSS styles */

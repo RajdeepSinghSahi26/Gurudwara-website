@@ -1,0 +1,56 @@
+
+/* ✅ General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* ✅ Navigation Bar */
+nav {
+    background-color: #004080;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* ✅ Active Menu Highlight */
+nav ul li a.active {
+    border-bottom: 3px solid yellow;
+}
+
+/* ✅ Main Content */
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+/* ✅ Footer */
+footer {
+    background-color: #004080;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
